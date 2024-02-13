@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="title">Etch-A-Sketch</div>
+        <div class="container"></div>
+        <div class="nav">
+            <div class="menu">
+                <ul class="menuList">
+                    <li div="gridSizeSlider"><div class="slidecontainer">
+                        <div>Grid size: </div>
+                        <input type="range" min="10" max="100" value="10" id="slide">
+                        <div class="sliderValue">10 x 10</div>
+                    </div></li>
+                    <li><fieldset class="modeSelect">
+                        <legend>Select mode: </legend>
+                        <div>
+                          <input type="radio" id="blackMode" name="Black" value="blackMode" />
+                          <label for="contactChoice1">Black</label>
+                          <input type="radio" id="rgbMode" name="RGB" value="rgbMode" />
+                          <label for="contactChoice2">Rainbow</label>
+                        </div>
+                      </fieldset></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
